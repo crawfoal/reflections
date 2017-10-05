@@ -29,3 +29,7 @@ master. You'd keep this branch around, and when you want to add a bug fix to an
 old version, you could cherry pick it off of the main branch.
 
 You could also use branches to work on different features or bug fixes at once.
+
+**How do the diagrams help you visualize the branch structure?**
+Diagrams help me see when (i.e. what commit) a branch was created from. I can
+see what changes each branch does and does not have.
