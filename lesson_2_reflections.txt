@@ -10,3 +10,22 @@ the next commit. The working directory is where are your files are stored, in
 their current state. This allows you break off small logical commits as you
 work, rather than always having to commit all changes you've made since your
 last commit.
+
+**How can you use the staging area to make sure you have one commit per logical
+change?**
+To ensure that you have one logical change per commit, you can add only the
+changes that make up on logical change to the staging area, commit them, and
+then continue these two steps until all of your changes are committed.
+
+**What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?**
+Branches would be helpful if you had multiple people working on the same repo at
+the same time. Each person could work on a separate branch, and merge their
+changes into master when their code has been peer reviewed.
+
+They could also help you maintain different versions of your software. Each
+release could be a long-living branch. To make a release, you'd branch off of
+master. You'd keep this branch around, and when you want to add a bug fix to an
+old version, you could cherry pick it off of the main branch.
+
+You could also use branches to work on different features or bug fixes at once.
