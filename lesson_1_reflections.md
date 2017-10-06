@@ -15,8 +15,6 @@ efficient programmer in the long term?**
   who the recent major contributors are, and ask them for help
 - when you don't understand why someone wrote code the way they did, you can
   look back at their commit message and see if they gave an explanation
-- you can work on different tasks within the code base at the same time and
-  deal with merging the changes together when it is convenient
 
 **What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
@@ -35,7 +33,7 @@ Whether it makes sense to track individually or separately depends on the work
 being done, as we saw in the quiz. Editing photos was an example of a type of
 work in which it makes sense to track files individually. Usually, in
 programming it makes sense to track the files together because we have code in
-multiple files that highly interdependent.
+multiple files that are highly interdependent.
 
 **How can you use the commands git log and git diff to view the history of
 files?**

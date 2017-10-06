@@ -14,7 +14,7 @@ last commit.
 **How can you use the staging area to make sure you have one commit per logical
 change?**
 To ensure that you have one logical change per commit, you can add only the
-changes that make up on logical change to the staging area, commit them, and
+changes that make up one logical change to the staging area, commit them, and
 then continue these two steps until all of your changes are committed.
 
 **What are some situations when branches would be helpful in keeping your
@@ -28,7 +28,8 @@ release could be a long-living branch. To make a release, you'd branch off of
 master. You'd keep this branch around, and when you want to add a bug fix to an
 old version, you could cherry pick it off of the main branch.
 
-You could also use branches to work on different features or bug fixes at once.
+You could also use branches to work on different features or bug fixes
+simultaneously.
 
 **How do the diagrams help you visualize the branch structure?**
 Diagrams help me see when (i.e. what commit) a branch was created from. I can
@@ -38,10 +39,13 @@ see what changes each branch does and does not have.
 the diagram the way we do?**
 After merging two branches together, the changes from both branches are included
 in the branch that is currently checked out. A visual representation of this
-shows that the two branches diverged after a certain commit, and merged back
-together on a certain merge commit. The branches are laid out next to each other
-to communicate that when they existed, the changes on each branch were separate
-from each other.
+shows the history of the branches. It shows the two branches diverged after a
+specific commit, indicated by two edges connected to that commit. After that,
+for a period of time, the two branches held different states of the project,
+i.e. each branch had a different set of modifications. This is represented by
+two parallel branches with commits (nodes, or circles) in each. When things were
+ready, we combined the changes in each of these two branches. This is
+represented by the two branches's edges joining in a single commit/node.
 
 **What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?**
