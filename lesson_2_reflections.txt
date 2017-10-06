@@ -42,3 +42,9 @@ shows that the two branches diverged after a certain commit, and merged back
 together on a certain merge commit. The branches are laid out next to each other
 to communicate that when they existed, the changes on each branch were separate
 from each other.
+
+**What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?**
+It would be really tedious to always merge manually. Git can't always
+auto-merge, even when you think it should, but it's nice that it will do it for
+you in easy situations.
