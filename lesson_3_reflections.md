@@ -27,3 +27,13 @@ stored locally?**
 Because our local computer has a copy of the last known state of the remote
 repo, it can only download the changes since then, rather than the whole repo.
 It also gives information needed in order to merge the local and remote changes.
+
+**How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?**
+When I was a TA in grad. school, we had a shared dropbox folder where we kept
+course materials like projects and homework solutions. There wasn't an easy way
+to see the editing history of these material and as a result, things didn't get
+updated and corrected as often or consistently as they likely would have if we'd
+been using something like git and GitHub. We didn't have to deal with branches
+and remotes, so in a sense that was easier, but not really worth the trade off.
+We just didn't know any better! :)
