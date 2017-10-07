@@ -21,3 +21,9 @@ repo on your computer, or you might use this locally if if you want to use a
 project on your computer as a starting point for another project. A branch is a
 way of keeping track of different versions of a single project. Branches are
 created *within* a repo, whereas the other two create new repos.
+
+**What is the benefit of having a copy of the last known state of the remote
+stored locally?**
+Because our local computer has a copy of the last known state of the remote
+repo, it can only download the changes since then, rather than the whole repo.
+It also gives information needed in order to merge the local and remote changes.
