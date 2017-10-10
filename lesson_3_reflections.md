@@ -37,3 +37,16 @@ updated and corrected as often or consistently as they likely would have if we'd
 been using something like git and GitHub. We didn't have to deal with branches
 and remotes, so in a sense that was easier, but not really worth the trade off.
 We just didn't know any better! :)
+
+**When would you want to make changes in a separate branch rather than directly
+**in master? What benefits does each approach have?**
+Making changes in a branch rather than in master opens up the opportunity for a
+pull request, which is an important part of collaborating with others. You could
+open up a pull request from your fork's master to the upstream's master branch,
+but this isn't the best idea, especially when you're working on multiple
+features or bug fixes. By making your changes in a separate branch, you have
+control over when to merge upstream changes into the branch your working on. You
+can reserve the master branch of your local repo for syncing with the upstream
+repo, and then if you're working on multiple features you can choose to pull the
+most recent changes into each feature branch at different times, only doing it
+when each branch is ready.
